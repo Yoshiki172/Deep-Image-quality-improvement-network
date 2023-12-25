@@ -1,1 +1,1 @@
-# Deep-Image-quality-improvement-network
+# Learned-image-quality-improvement-network
