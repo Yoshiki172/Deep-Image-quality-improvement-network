@@ -11,7 +11,8 @@ This network is trained using LPIPS and MS-SSIM to reconstruct visually superior
 ![Slide2](https://github.com/Yoshiki172/Learned-image-quality-improvement-network/assets/46835185/21de3092-f53e-4c1c-872b-0bd0cafac035)
 
 ## HOW TO USE
-Create a folder "Val_Image" for input images.
+Create a folder "Val_Image/test" for input images.
+(The use of ImageFolder requires two levels of hierarchy.)
 ```
 CUDA_VISIBLE_DEVICES=0 python train_highres.py -n test -p checkpoints/test/iter_96000.pth.tar --test
 ```
