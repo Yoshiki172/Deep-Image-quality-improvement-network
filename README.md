@@ -13,5 +13,5 @@ This network is trained using LPIPS and MS-SSIM to reconstruct visually superior
 ## HOW TO USE
 Create a folder "Val_Image" for input images.
 ```
-CUDA_VISIBLE_DEVICES=0 python train_highres.py -n test -p checkpoints/test/iter_96000.pth.tar
+CUDA_VISIBLE_DEVICES=0 python train_highres.py -n test -p checkpoints/test/iter_96000.pth.tar --test
 ```
