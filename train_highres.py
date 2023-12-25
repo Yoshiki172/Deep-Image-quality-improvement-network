@@ -1,5 +1,3 @@
-#実行例:CUDA_VISIBLE_DEVICES=0 python train_highres.py -n mask
-
 import os
 import argparse
 from models.SR import SRModel
@@ -219,8 +217,8 @@ def testKodak(step):
         test_transform = transforms.Compose([
             transforms.ToTensor(),
         ])
-        test_dataset = ImageFolder(root='./Val_Image', # 画像が保存されているフォルダのパス
-                           transform=test_transform) # Tensorへの変換
+        test_dataset = ImageFolder(root='./Val_Image', # Input image path
+                           transform=test_transform) 
 
         test_loader = DataLoader(dataset=test_dataset, shuffle=False, batch_size=1, pin_memory=True, num_workers=1)
         
