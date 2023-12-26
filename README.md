@@ -1,7 +1,7 @@
 # Learned-image-quality-improvement-network
 This is a program implemented in PyTorch to implove the image quality.
 
-By executing the program, it is possible to enlarge the image by a factor of 2 to 4.(only 2x at present)
+By executing the program, it is possible to enlarge the image by a factor of 2 to 4.
 
 The network architecture is shown below.
 ![architecture](https://github.com/Yoshiki172/Learned-image-quality-improvement-network/assets/46835185/d4c46373-b353-40ea-9fa7-0175ecedfb2e)
